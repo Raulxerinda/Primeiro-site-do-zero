@@ -1,0 +1,87 @@
+body {
+    background-color: #121212; /* Fundo escuro como na imagem */
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    opacity: 0.7;
+}
+
+.navbar .icons i {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Seção Principal (Hero) */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.shop-now {
+    background-color: #aaff00; /* Cor verde vibrante */
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    /* Adicione um estilo para rotacionar a imagem se quiser (transform: rotate(-20deg);) */
+}
+
+/* Seção de Produtos (os 12 sapatos) */
+.products-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 20px; /* Espaço entre os cartões */
+}
+
+.product-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px; /* Largura fixa para cada cartão */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
